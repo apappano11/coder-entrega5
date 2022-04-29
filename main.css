@@ -230,6 +230,8 @@ animation-iteration-count: infinite;
     grid-row-end: 4;
   }
 
+
+
   @media screen and (width:2560px) {
 
     .grid-index { 
@@ -264,6 +266,18 @@ animation-iteration-count: infinite;
     grid-column-end: 4; 
     grid-row-start: 4; 
     grid-row-end: 5;
+}
+
+.grid-main-h4:hover {
+  background:#3E362E;
+  text-align: center;
+  color: antiquewhite;
+
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+
+
 }
 
   .grid-main1 {
